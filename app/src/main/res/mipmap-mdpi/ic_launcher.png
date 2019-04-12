@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#c0c0c0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type and Run"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="#778899"/>
+
+    <EditText
+        android:id="@+id/txtMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Make:"
+        />
+
+    <EditText
+        android:id="@+id/txtYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Year:"
+        />
+
+    <EditText
+        android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Color:"
+        />
+
+    <EditText
+        android:id="@+id/txtPurchasePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Purchase price(£):"
+        />
+
+    <EditText
+        android:id="@+id/txtEngineSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Engine size(litre):"
+        />
+        <Button
+            android:id="@+id/btnCreateCar"
+            android:layout_width="wrap_content"
+            android:lay
